@@ -1,0 +1,36 @@
+.container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.snake {
+	position: relative;
+	background-color: blue;
+}
+
+.apple {
+	background-color: purple;
+}
